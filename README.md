@@ -62,7 +62,7 @@ product_quantity: "55kg",
 product_price: "UGX150/kg",
 country: "Uganda",
 market_name: "Iganga",
-user_id: 1,
+user_id: 1
 }
 
 Put:
