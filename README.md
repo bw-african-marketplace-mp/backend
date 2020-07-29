@@ -1,29 +1,32 @@
 Api: https://marketbw-api.herokuapp.com
 
-_To access either register new user or use one from following list_
-{
-"id": 1,
-"username": "user1",
-"password": "lambdaschool"
-},
-{
-"id": 2,
-"username": "user2",
-"password": "lambdaschool"
-{
-"id": 3,
-"username": "user3",
-"password": "lambdaschool"
-}
+To access either register new user or use one from following list:
+
+username: "user1",
+password: "lambdaschool"
+
+
+
+username: "user2",
+password: "lambdaschool"
+
+
+username: "user3",
+password: "lambdaschool"
+
 
 Auth Endpoints
 
 Post:
 
 Register https://marketbw-api.herokuapp.com/api/auth/register
+
+
 Log In https://marketbw-api.herokuapp.com/api/auth/login
 
 Example:
+
+
 { username: "user1", password: "lambdaschool" }
 
 Get:
@@ -35,10 +38,18 @@ Market Endpoints:
 Get:
 
 Get list of products https://marketbw-api.herokuapp.com/api/market
+
+
 Get products by id https://marketbw-api.herokuapp.com/api/market/:id
+
+
 Get products by user id https://marketbw-api.herokuapp.com/api/market/user/:id
 
+
+
 Post:
+
+
 Create product listing https://marketbw-api.herokuapp.com/api/market/user/:id
 
 Example:
