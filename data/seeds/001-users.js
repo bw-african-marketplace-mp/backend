@@ -5,7 +5,10 @@ exports.seed = function (knex) {
     .del()
     .then(function () {
       return knex("users").insert([
-        { username: "user1", password: bcryptjs.hashSync("lambdaschool", 8) },
+        { username: "Caterina", password: bcryptjs.hashSync("lambdaschool", 8) },
+        { username: "Elena", password: bcryptjs.hashSync("lambdaschool", 8) },
+        { username: "Marina", password: bcryptjs.hashSync("lambdaschool", 8) },
+        { username: "Isabella", password: bcryptjs.hashSync("lambdaschool", 8) },
       ]);
     });
 };
